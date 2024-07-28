@@ -15,7 +15,7 @@ import re
 
 
 #Set Tesseract Path
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe' # Change this to where your tesseract .exe is located. Make sure to download tesseract OCR if not there.
 # Load the image
 image = cv2.imread('tables/table2.png')
 
