@@ -1,0 +1,7 @@
+opencv-python
+numpy
+matplotlib
+super-image
+pillow
+pytesseract
+pandas
